@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/942/510/non_2x/wooden-texture-background-brown-wood-texture-old-wood-texture-for-add-text-or-work-design-for-backdrop-product-top-view-wood-food-table-free-photo.JPG);
+background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+li{
+    display: inline-block;      
+    padding: 0px 20px;
+    list-style: none; 
+}
+a{  
+    font-size: 20px;
+    text-decoration: none;  
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    transition: all 0.5s;
+    padding: 10px 25px;
+
+}
+a:hover{
+    background-color: black;
+    color: #ededed;
+    border-radius: 50px;
+}
+.logo{
+    width: 100%;
+  max-width: 200px;
+  height: 100px;
+}
+.btn-botton{
+    padding: 10px 25px;
+    background-color: #ff2753;
+    border-radius: 50px;
+    color: #ededed;
+}
+
+----------------------------
+
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+    height: 720px;
+	  width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+h2 {
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+}
+.gallery img {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  object-fit: center;
+  border-radius: 10px;
+}
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-family: cursive;
+  color: grow;
+}
+.dessert {
+  text-align: left;
+  width: 35%;
+}
+.price {
+  text-align: right;
+  width: 25%;
+}
